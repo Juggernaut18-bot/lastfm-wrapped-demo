@@ -34,7 +34,7 @@ const {
 } = require("./data/syntheticData");
 
 const PORT = process.env.PORT ? Number(process.env.PORT) : 4000;
-const PUBLIC_DIR = path.join(__dirname, "public");
+const PUBLIC_DIR = path.join(process.cwd(), "public");
 
 // In-memory "database" for concerts, seeded with fictional entries.
 // Mirrors the shape of the original's D1-backed /concerts* routes.

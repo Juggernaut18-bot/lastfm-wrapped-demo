@@ -3,6 +3,7 @@
   "name": "lastfm-wrapped-demo",
   "main": "./worker.js",
   "compatibility_date": "2026-10-19",
+  "compatibility_flags": ["nodejs_compat"],
   "assets": {
     "directory": "./public",
     "binding": "ASSETS"
