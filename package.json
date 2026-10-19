@@ -1,0 +1,13 @@
+{
+  "name": "lastfm-wrapped-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone offline demo of the Last.fm Wrapped UI, using 100% synthetic/fictional data. No Last.fm API, credentials, or personal data involved.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
