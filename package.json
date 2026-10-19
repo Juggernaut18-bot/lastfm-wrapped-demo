@@ -5,7 +5,9 @@
   "description": "Standalone offline demo of the Last.fm Wrapped UI, using 100% synthetic/fictional data. No Last.fm API, credentials, or personal data involved.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
   },
   "engines": {
     "node": ">=18"

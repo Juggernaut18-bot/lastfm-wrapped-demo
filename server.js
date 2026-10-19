@@ -527,3 +527,5 @@ server.listen(PORT, () => {
   console.log(`lastfm-wrapped-demo running at http://localhost:${PORT}`);
   console.log(`Synthetic scrobbles loaded: ${SCROBBLES.length}`);
 });
+
+module.exports = server;
